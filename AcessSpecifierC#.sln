@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessSpecifier", "AcessSpecifier\AcessSpecifier.csproj", "{D6DF27E1-9878-47FF-A2ED-457ECB358FE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessSpecifier2", "AccessSpecifier2\AccessSpecifier2.csproj", "{BE73EAC3-870E-4164-91A7-433931833361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D6DF27E1-9878-47FF-A2ED-457ECB358FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6DF27E1-9878-47FF-A2ED-457ECB358FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6DF27E1-9878-47FF-A2ED-457ECB358FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE73EAC3-870E-4164-91A7-433931833361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE73EAC3-870E-4164-91A7-433931833361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE73EAC3-870E-4164-91A7-433931833361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE73EAC3-870E-4164-91A7-433931833361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

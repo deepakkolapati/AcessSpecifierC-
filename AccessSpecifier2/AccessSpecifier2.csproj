@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D6DF27E1-9878-47FF-A2ED-457ECB358FE5}</ProjectGuid>
+    <ProjectGuid>{BE73EAC3-870E-4164-91A7-433931833361}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AcessSpecifier</RootNamespace>
-    <AssemblyName>AcessSpecifier</AssemblyName>
+    <RootNamespace>AccessSpecifier2</RootNamespace>
+    <AssemblyName>AccessSpecifier2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,10 +32,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>AcessSpecifier.class2</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AcessSpecifier">
+      <HintPath>..\AcessSpecifier\bin\Debug\AcessSpecifier.exe</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,9 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="class2.cs" />
-    <Compile Include="class3.cs" />
+    <Compile Include="class4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
